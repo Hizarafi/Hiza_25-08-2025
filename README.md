@@ -27,3 +27,12 @@ uvicorn main:app --reload
 Access endpoints
 Open http://127.0.0.1:8000/docs
  to explore the API with Swagger UI.
+
+ Future Improvements 🚀
+Real-time monitoring: Integrate WebSockets or a streaming API to update store status in real time.
+Authentication & Security: Add API key or OAuth2 authentication to secure endpoints.
+Dashboard: Build a frontend dashboard (React/Power BI) to visualize store uptime/downtime.
+Automated alerts: Send email or Slack notifications if a store goes down unexpectedly.
+Scalability: Move database to PostgreSQL or cloud storage for handling more stores efficiently.
+Unit Tests & CI/CD: Add automated tests and continuous deployment workflow to improve reliability.
+Data enrichment: Integrate weather or local event data to predict store downtime causes.
